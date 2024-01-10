@@ -28,7 +28,7 @@ const Sidebar = () => {
   const handleNavigation = React.useCallback((path, index) => {
     setSeleted(index)
     navigate(path);
-  }, []);
+  }, [navigate]);
 
   return (
     <div className="h-full flex flex-col">
