@@ -27,7 +27,7 @@ const Header = ({ handleToggleSidebar }) => {
         </button>
         <span
           style={{ color: "#2196f3" }}
-          className="text-2xl uppercase font-bold"
+          className="text-2xl uppercase font-bold block md:visible"
         >
           dashboard
         </span>
