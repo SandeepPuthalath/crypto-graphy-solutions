@@ -23,10 +23,10 @@ const Header = ({ handleToggleSidebar }) => {
     <div className="bg-white w-full py-2 px-4 flex justify-between items-center shadow-sm">
       <div className="flex justify-center items-center gap-5">
         <button onClick={handleToggleSidebar}>
-          <HiBars3BottomRight color="#2196f3" size={35} />
+          <HiBars3BottomRight color="#29b6f6" size={35} />
         </button>
         <span
-          style={{ color: "#2196f3" }}
+          style={{ color: "#29b6f6" }}
           className="text-2xl uppercase font-bold block md:visible"
         >
           dashboard

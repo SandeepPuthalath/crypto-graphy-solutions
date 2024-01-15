@@ -12,7 +12,7 @@ const AccountComp = () => {
   React.useEffect(() => setProfileData(data),[]);
 
   return (
-    <button className="block w-10 h-10 cursor-pointer border border-[#2196f3] focus:border-slate-700  rounded-full">
+    <button className="block w-10 h-10 cursor-pointer border border-[#29b6f6] focus:border-slate-700  rounded-full">
       <img
         src={profileData?.img}
         className="rounded-full object-cover"

@@ -7,7 +7,7 @@ const Logo = () => {
         <img src="https://www.svgrepo.com/show/502424/books.svg" alt="" />
       </div>
       <div>
-        <h3 className="text-2xl font-bold text-[#2196f3]">Logo</h3>
+        <h3 className="text-2xl font-bold text-[#29b6f6]">Logo</h3>
       </div>
     </div>
   );

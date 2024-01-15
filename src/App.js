@@ -17,7 +17,7 @@ function App() {
         <Header {...{
           handleToggleSidebar
         }} />
-        <div  className="px-10 py-5 w-full">
+        <div  className="px-5 py-5 w-full">
           <Outlet/>
         </div>
       </div>

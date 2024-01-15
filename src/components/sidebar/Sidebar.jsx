@@ -33,17 +33,17 @@ const Sidebar = () => {
   return (
     <div className="h-full flex flex-col">
       <Logo />
-      <div className="py-8 flex flex-col h-full justify-between">
+      <div className="py-5 flex flex-col h-full justify-between">
         <div className="">
-          <ul className="pr-1 flex flex-col gap-1">
+          <ul className="pr-1 flex flex-col">
             {listData.map((data, index) => (
               <li
                 onClick={() => handleNavigation(data?.path, index)}
                 className={`px-5 py-2 ${
                   selected === index
-                    ? "bg-[#b3e5fc] border-[#2196f3] text-[#2196f3]"
+                    ? "bg-[#b3e5fc] border-[#29b6f6] text-[#29b6f6]"
                     : "border-transparent text-[#9e9e9e]"
-                } hover:bg-[#b3e5fc] hover:border-[#2196f3] hover:text-[#2196f3] border-l-4  flex items-center justify-between font-bold  cursor-pointer rounded-br-full`}
+                } hover:bg-[#b3e5fc] hover:border-[#29b6f6] hover:text-[#29b6f6] border-l-4  flex items-center justify-between font-bold  cursor-pointer rounded-br-full`}
                 key={index}
               >
                 <div className="flex items-center gap-5 capitalize">

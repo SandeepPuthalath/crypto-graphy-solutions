@@ -13,8 +13,8 @@ const DateToggle = () => {
               onClick={() => setSelected(index)}
               className={`text-[14px] px-1 rounded-sm ${
                 selected === index
-                  ? "text-white bg-[#2196f3]"
-                  : "text-[#2196f3]"
+                  ? "text-white bg-[#29b6f6]"
+                  : "text-[#29b6f6]"
               } font-semibold`}
             >
               {data}

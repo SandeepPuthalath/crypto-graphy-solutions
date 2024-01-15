@@ -20,14 +20,14 @@ const Dashboard = () => {
   React.useEffect(() => setData(dummyData), []);
 
   return (
-    <div className="grid gap-5">
-      <div className="flex justify-end gap-3">
+    <div className="grid gap-4">
+      <div className="flex justify-end gap-1">
         <DateToggle />
         <DateSelecter />
       </div>
-      <div className="grid md:grid-cols-7 gap-10">
+      <div className="grid md:grid-cols-7 gap-5">
         <div className="md:col-span-3">
-          <div className="bg-[#2196f3] bg-gradient-to-l py-10 px-5 text-white rounded-md shadow-xl">
+          <div className="bg-[#29b6f6] bg-gradient-to-l py-10 px-5 text-white rounded-md shadow-xl">
             <div className="flex flex-col gap-2">
               <p className="text-md font-semibold">Number of Paid invoices</p>
               <p className="text-4xl font-bold">{data?.numOfPaidInvoice}</p>
@@ -39,20 +39,20 @@ const Dashboard = () => {
           </div>
         </div>
         <div className="md:col-span-4">
-          <div className="grid sm:grid-cols-2 gap-9 text-[#212121]">
-            <div className="flex flex-col gap-3 rounded-md px-3 py-5 bg-white shadow-xl">
+          <div className="grid sm:grid-cols-2 gap-5 text-[#212121]">
+            <div className="flex flex-col gap-3 rounded-md px-3 py-6 bg-white shadow-xl">
               <p className="text-sm font-semibold">Invoice Creates</p>
               <p className="text-2xl font-bold">{data?.invoiceCreate}</p>
             </div>
-            <div className="flex flex-col gap-3 rounded-md px-3 py-5 bg-white shadow-xl">
+            <div className="flex flex-col gap-3 rounded-md px-3 py-6 bg-white shadow-xl">
               <p className="text-sm font-semibold">Number of Customers</p>
               <p className="text-2xl font-bold">{data?.numOfCustomers}</p>
             </div>
-            <div className="flex flex-col gap-3 rounded-md px-3 py-5 bg-white shadow-xl">
+            <div className="flex flex-col gap-3 rounded-md px-3 py-6 bg-white shadow-xl">
               <p className="text-sm font-semibold">Value Transactions</p>
               <p className="text-2xl font-bold">{data?.valueOfTrancations}</p>
             </div>
-            <div className="flex flex-col gap-3 rounded-md px-3 py-5 bg-white shadow-xl">
+            <div className="flex flex-col gap-3 rounded-md px-3 py-6 bg-white shadow-xl">
               <p className="text-sm font-semibold">Expiring Invoices</p>
               <p className="text-2xl font-bold">{data?.expiringInvoices}</p>
             </div>
@@ -69,7 +69,7 @@ const Dashboard = () => {
       </div>
       <div className="flex items-center gap-10">
         <div className="bg-white p-3 rounded-md flex flex-col">
-          <p className="text-[#2196f3] text-lg font-semibold">
+          <p className="text-[#29b6f6] text-lg font-semibold">
             Today's Invoice
           </p>
           <div class="overflow-x-auto mt-1">
@@ -101,7 +101,7 @@ const Dashboard = () => {
           </div>
         </div>
         <div className="bg-white p-3 rounded-md flex flex-col">
-          <p className="text-[#2196f3] text-lg font-semibold">
+          <p className="text-[#29b6f6] text-lg font-semibold">
             Today's Paid Invoice
           </p>
           <div class="overflow-x-auto mt-1">
